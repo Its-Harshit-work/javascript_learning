@@ -83,3 +83,27 @@ let score2=200;
 let score3=300;
 console.log(Array.of(score1, score2, score3)); //convert the given values in array
 // output [ 100, 200, 300 ]
+
+
+
+function arr0() {} //This function defines no parameters, so its length property is 0.
+console.log(arr0.length); // Outputs: 0
+
+function arr1(a) {} //This function defines one parameter, so its length property is 1.
+console.log(arr1.length); // Outputs: 1
+
+function arr2(a, b, c) {} //This function defines three parameters, so its length property is 3.
+console.log(arr2.length); // Outputs: 3
+
+
+//When a function has default parameters, the length property counts up to the first default parameter. 
+//Although three parameters are defined in this example, 
+//because the second parameter is a default parameter, the length value is 1.
+function arr3(a, b = 2, c) {}
+console.log(arr3.length); // Outputs: 1
+
+function arr4(a, b, ...rest) {}
+console.log(arr4.length); // Outputs: 2
+//For functions using the rest parameters operator, the length property counts only the parameters before the rest parameter. 
+//In this example, although the function can accept an infinite number of arguments, the length value is 2, counting only the parameters before ...rest.
+

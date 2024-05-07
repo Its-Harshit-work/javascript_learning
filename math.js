@@ -1,4 +1,3 @@
-/*
 const score=400;
 
 const balance=new Number(100);
@@ -26,8 +25,8 @@ console.log(otherNum.toPrecision(5));   //123.70
 const hundred=10000000;
 console.log(hundred.toLocaleString());
 console.log(hundred.toLocaleString('en-IN'));
-*/
-/*
+
+
 //Maths
 console.log(Math);
 console.log(Math.abs(-4));
@@ -36,7 +35,7 @@ console.log(Math.round(4.1));
 console.log(Math.ceil(4.6));
 console.log(Math.floor(4.6));
 
-*/
+
 // Math.random gives random value between 0 and 1
 console.log(Math.random());
 console.log(Math.random()*10 +1);
