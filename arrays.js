@@ -6,7 +6,7 @@ You simply access it directly with dot notation like arr.length.
 Using arr.length() would result in an error because length is not a function/method that you can call with parentheses. 
 It's a property that holds a numeric value representing the number of elements in the array.
 */
-/*
+
 const arr=[1, 2, 3, 4, 5, 6];
 console.log(arr.length); //output 6
 
@@ -49,7 +49,7 @@ console.log("original array after slice opeation", arr); // original array after
 const newarr2=arr.splice(1,3); 
 console.log("Splice array", newarr2); // output Splice array [ 2, 3, 4 ]
 console.log("original array after splice operation", arr); //output original array after splice operation [ 1, 5, 6 ]
-*/
+
 
 const marvel=["thor", "Ironman", "spiderman"];
 const dc=["batman", "superman", "flash"];
