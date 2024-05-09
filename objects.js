@@ -1,4 +1,4 @@
-
+/*
 
 //object literals
 
@@ -88,3 +88,18 @@ const users=[
         email: "good@gmail.com"
     }
 ]
+*/
+
+
+//Destructing of objects
+
+const course = {
+    coursename: "Hello World",
+    price: "999",
+    courseInstructor: "Harshit"
+}
+
+console.log(course.courseInstructor);
+
+const {courseInstructor: Instructor}= course;
+console.log(Instructor);
