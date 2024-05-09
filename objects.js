@@ -1,4 +1,4 @@
-/*
+
 
 //object literals
 
@@ -88,7 +88,7 @@ const users=[
         email: "good@gmail.com"
     }
 ]
-*/
+
 
 
 //Destructing of objects
