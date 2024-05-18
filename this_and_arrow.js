@@ -70,3 +70,16 @@ console.log(addTwo(2, 4)); //output 6
 
 const diffTwo = (num1, num2) => (num1-num2);
 console.log(diffTwo(7,2)); //output 5
+
+
+// Immediately Invoked Function Expressions (IIFE)
+
+
+(function chai(){
+    // named IIFE
+    console.log(`DB CONNECTED`);
+})();
+
+( (name) => {
+    console.log(`DB CONNECTED TWO ${name}`);
+} )('hitesh')
