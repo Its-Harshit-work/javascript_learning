@@ -12,10 +12,10 @@ for (let i = 0; i <= 10; i++) {
 // console.log(element);
 
 for (let i = 1; i <= 10; i++) {
-    //console.log(`Outer loop value: ${i}`);
+    console.log(`Outer loop value: ${i}`);
    for (let j = 1; j <= 10; j++) {
-    //console.log(`Inner loop value ${j} and inner loop ${i}`);
-    //console.log(i + '*' + j + ' = ' + i*j );
+    console.log(`Inner loop value ${j} and inner loop ${i}`);
+    console.log(i + '*' + j + ' = ' + i*j );
    }
     
 }
@@ -53,10 +53,10 @@ for (let index = 1; index <= 20; index++) {
 //////////////////////////////////
 
 let index = 0
-// while (index <= 10) {
-//     console.log(`Value of index is ${index}`);
-//     index = index + 2
-// }
+while (index <= 10) {
+    console.log(`Value of index is ${index}`);
+    index = index + 2
+}
 
 let myArray1 = ['flash', "batman", "superman"]
 

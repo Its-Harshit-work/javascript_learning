@@ -1,18 +1,18 @@
 // //this keyword is used for refering to the current context
-// const user = {
-//     username : "Harshit",
-//     price  :999,
+const user = {
+    username : "Harshit",
+    price  :999,
 
-//     welcomeMessage: function(){
-//         console.log(`${this.username}, welcome to website`);
-//     }
-// }
+    welcomeMessage: function(){
+        console.log(`${this.username}, welcome to website`);
+    }
+}
 
-// user.welcomeMessage();  // output Harshit, welcome to website
-// user.username="jack";
-// user.welcomeMessage(); //output jack, welcome to website
+user.welcomeMessage();  // output Harshit, welcome to website
+user.username="jack";
+user.welcomeMessage(); //output jack, welcome to website
 
-// console.log(this); // output {}
+console.log(this); // output {}
 
 
 
